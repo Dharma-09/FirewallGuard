@@ -1,7 +1,5 @@
 # Firewall Policy Analyzer
 
-The app is written in Streamlit: [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://martimy-firewall-policy-analyzer-st-analyzer-ust3ul.streamlit.app/)
-
 This is an application that detects patterns and conflicts in firewall policies. The app aims to improve the security and performance of network firewalls by identifying and resolving policy inconsistencies. The app uses a formal model to represent firewall rules and a conflict detection algorithm to find policy conflicts. The app also provides a graphical user interface to visualize and manage firewall policies.
 
 ## Summary of changes in v0.2
@@ -30,8 +28,8 @@ To use the app, follow these steps (assuming Ubuntu Linux, but Windows also work
 1. Clone this repository:
 
 ```bash
-$ git clone https://github.com/martimy/firewall_policy_analyzer
-$ cd firewall_policy_analyzer
+$ git clone https://github.com/Dharma-09/FirewallGuard
+$ cd FirewallGuard
 ```
 
 2. Install Streamlit and other requirements
@@ -47,8 +45,6 @@ $ streamlit run st_analyzer.py
 ```
 
 ## Getting Started
-
-[Watch the Getting Started video on YouTube](https://youtu.be/zJFOc2t0GhI).
 
 This app analyzes firewall rules saved  as a .csv file in the following format:
 
@@ -89,10 +85,3 @@ where:
 6. Once you are satisfied with all the changes, you can save the modified rule set by clicking the "Download rules" button under the Rules widget. The new rules will be saved as "new_rules.csv" in the default Downloads folder.
 
 ![Download](img/step_4.png)
-
-## Acknowledgements:
-
-The code is based on the following research:
-
-[1] E. Al-Shaer, H. Hamed, R. Boutaba, and M. Hasan, “Conflict classification and analysis of distributed firewall policies,” IEEE J. Select. Areas Commun., vol. 23, no. 10, pp. 2069–2084, Oct. 2005.  
-[2] E. S. Al-Shaer and H. H. Hamed, “Modeling and Management of Firewall Policies,” IEEE Trans. Netw. Serv. Manage., vol. 1, no. 1, pp. 2–10, Apr. 2004.
